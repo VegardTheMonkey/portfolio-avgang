@@ -35,6 +35,10 @@ function Header() {
           <span></span>
           <span></span>
         </div>
+        <div className={`mobile-back-button ${mobileMenuOpen ? 'visible' : ''}`} onClick={toggleMobileMenu}>
+          <span></span>
+          <span></span>
+        </div>
         <nav className={`nav-menu ${mobileMenuOpen ? 'active' : ''}`}>
           <ul>
             <li><a href="#about" onClick={() => setMobileMenuOpen(false)}>About Me</a></li>

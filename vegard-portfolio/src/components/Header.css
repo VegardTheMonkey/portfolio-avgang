@@ -94,6 +94,39 @@
     display: flex;
   }
   
+  .mobile-back-button {
+    display: none;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 1001;
+  }
+  
+  .mobile-back-button.visible {
+    display: block;
+  }
+  
+  .mobile-back-button span {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+  }
+  
+  .mobile-back-button span:first-child {
+    transform: translateY(-50%) rotate(45deg);
+  }
+  
+  .mobile-back-button span:last-child {
+    transform: translateY(-50%) rotate(-45deg);
+  }
+  
   .nav-menu {
     position: fixed;
     top: 0;
