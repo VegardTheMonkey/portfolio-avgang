@@ -1,0 +1,101 @@
+.tech-section {
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+.tech-section h2 {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.tech-item {
+  text-align: center;
+  padding: 20px;
+}
+
+.tech-item i {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  transition: transform 0.3s;
+}
+
+.tech-item img {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  transition: transform 0.3s;
+}
+
+.tech-item:hover i,
+.tech-item:hover img {
+  transform: scale(1.1);
+}
+
+.tech-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Technology-specific colors */
+.tech-item .fa-html5 {
+  color: #E34F26;
+}
+
+.tech-item .fa-css3-alt {
+  color: #1572B6;
+}
+
+.tech-item .fa-js {
+  color: #F7DF1E;
+}
+
+.tech-item .fa-react {
+  color: #61DAFB;
+}
+
+.tech-item .fa-node-js {
+  color: #339933;
+}
+
+.tech-item .fa-git {
+  color: #F05032;
+}
+
+.tech-item .fa-python {
+  color: #3776AB;
+}
+
+/* For the SVG images (MongoDB and MySQL) */
+.tech-item img[alt="MongoDB"] {
+  filter: invert(47%) sepia(90%) saturate(425%) hue-rotate(71deg) brightness(95%) contrast(95%);
+}
+
+.tech-item img[alt="MySQL"] {
+  filter: invert(23%) sepia(94%) saturate(1957%) hue-rotate(195deg) brightness(94%) contrast(98%);
+}
+
+/* Slick carousel customization */
+.slick-prev,
+.slick-next {
+  z-index: 1;
+}
+
+.slick-prev {
+  left: -25px;
+}
+
+.slick-next {
+  right: -25px;
+}
+
+.slick-dots li button:before {
+  color: #4481eb;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #04befe;
+} 
