@@ -83,6 +83,16 @@
     gap: 15px;
     margin-top: 40px;
   }
+
+  .project-link {
+    background-color: #204077;
+    color: #fff;
+  }
+
+  .project-link:hover {
+    background-color: #1b283f;
+    color: #fff;
+  }
   
   .project-link.secondary {
     background-color: #e0e0e0;

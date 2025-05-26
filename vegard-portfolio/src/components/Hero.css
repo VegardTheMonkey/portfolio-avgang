@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   color: #fff;
-  background: linear-gradient(135deg, #4481eb, #04befe);
+  background: linear-gradient(15deg, #204077, #a7e9ff);
   overflow: hidden;
 }
 
@@ -97,7 +97,7 @@
 
 .scroll-down {
   position: absolute;
-  bottom: 50px;
+  bottom: 1px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
@@ -163,6 +163,16 @@
 
 .hero-image-wrapper:hover .hero-image {
   transform: rotate(180deg);
+}
+
+@media (max-width: 1400px) {
+  .hero-container {
+    margin-top: 20px;
+  }
+  .hero-image-wrapper {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 @media (max-width: 768px) {
