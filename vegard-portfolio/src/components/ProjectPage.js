@@ -39,17 +39,18 @@ The platform was built using the MERN stack (MongoDB, Express, React, Node.js), 
           ]
         };
       
-      case 2: // Super Accessor
+      case 2: // Tool for website analysis
         return {
-          details: `Super Accessor is an innovative browser-based card game designed for educators. 
-                   It helps teachers select appropriate assessment methods by presenting them with 
-                   various cards representing different assessment techniques. The game promotes 
-                   creative thinking about evaluation methods.`,
+          details: `In this project I did research, design, development and iterative testing of a browser
+            extension that analyzes the image content of a webpage and provides visual feedback and
+            provides a built-in optimization tool. By making the environmental impact visible and
+            understandable, this tool makes the environmental aspect clear and tangible and should
+            motivate developers towards eco-friendly web design without interfering with their hectic
+            timelines or sacrificing business needs.`,
           challenges: [
-            "Balancing game mechanics for educational value",
-            "Creating intuitive  interfaces",
-            "Implementing complex game logic with React",
-            "Implementing pdf generation"
+            "Implementing real-time website analysis",
+            "Creating a user-friendly interface",
+            "Giving useful feedback to the user"
           ]
         };
       
@@ -62,7 +63,6 @@ The platform was built using the MERN stack (MongoDB, Express, React, Node.js), 
           challenges: [
             "Integrating hardware components with software systems",
             "Ensuring reliable communication between devices",
-            "Implementing secure authentication mechanisms",
             "Designing fault-tolerant systems for 24/7 operation"
           ]
         };
@@ -107,7 +107,7 @@ The platform was built using the MERN stack (MongoDB, Express, React, Node.js), 
             
             <h2>Challenges</h2>
             <p>
-              During the development of this project, we faced several challenges:
+              During the development of this project, there were challenges:
             </p>
             <ul>
               {content.challenges.map((challenge, index) => (

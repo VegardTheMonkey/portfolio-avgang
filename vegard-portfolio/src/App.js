@@ -14,7 +14,7 @@ import ProjectPage from './components/ProjectPage';
 
 // images
 import susForum from './images/sus-forum.png';
-import superAccessor from './images/super-accessor.jpg';
+import analysis from './images/analysis.png';
 import doorControl from './images/door-counter.jpg';
 
 function App() {
@@ -31,11 +31,12 @@ function App() {
     },
     {
       id: 2,
-      title: 'Super Accessor',
-      description: 'A card game in the browser to help teachers choose accessment methods',
-      technologies: ['React', 'Express', 'MongoDB'],
-      image: superAccessor,
-      github: 'https://github.com/maheggh/cardgame',
+      title: 'Tool for website analysis',
+      description: 'A browser extension supporting developers in making environmentally friendly choices',
+      technologies: ['React'],
+      image: analysis,
+      livelink: 'https://chromewebstore.google.com/detail/sustainability-extension/faimemkpadghgppgadofgjiihhjlijog?authuser=0&hl=no',
+      github: 'https://github.com/VegardTheMonkey/sustainability-extention/tree/master',
     },
     {
       id: 3,
