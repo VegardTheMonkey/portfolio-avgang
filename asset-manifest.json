@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-avgang/static/css/main.473c4c15.css",
-    "main.js": "/portfolio-avgang/static/js/main.a7439950.js",
+    "main.js": "/portfolio-avgang/static/js/main.fa25430e.js",
     "static/media/meg.jpg": "/portfolio-avgang/static/media/meg.a0ece15faf1d0153e635.jpg",
     "static/media/door-counter.jpg": "/portfolio-avgang/static/media/door-counter.7d83ff2389f3f130ea6c.jpg",
     "static/media/analysis.png": "/portfolio-avgang/static/media/analysis.71151d7e20075eeeadb2.png",
@@ -12,10 +12,10 @@
     "static/media/slick.woff": "/portfolio-avgang/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio-avgang/index.html",
     "main.473c4c15.css.map": "/portfolio-avgang/static/css/main.473c4c15.css.map",
-    "main.a7439950.js.map": "/portfolio-avgang/static/js/main.a7439950.js.map"
+    "main.fa25430e.js.map": "/portfolio-avgang/static/js/main.fa25430e.js.map"
   },
   "entrypoints": [
     "static/css/main.473c4c15.css",
-    "static/js/main.a7439950.js"
+    "static/js/main.fa25430e.js"
   ]
 }
