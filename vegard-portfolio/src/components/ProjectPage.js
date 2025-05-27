@@ -41,7 +41,7 @@ The platform was built using the MERN stack (MongoDB, Express, React, Node.js), 
       
       case 2: // Tool for website analysis
         return {
-          details: `In this project I did research, design, development and iterative testing of a browser
+          details: `In this project was part of my bachelor thesis. Which involved research, design, development and iterative testing of a browser
             extension that analyzes the image content of a webpage and provides visual feedback and
             provides a built-in optimization tool. By making the environmental impact visible and
             understandable, this tool makes the environmental aspect clear and tangible and should
